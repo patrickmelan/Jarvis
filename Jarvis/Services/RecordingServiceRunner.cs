@@ -63,7 +63,7 @@ public class RecordingServiceRunner : BackgroundService
             {
                 Console.Clear();
                 Console.WriteLine("=====================================================================================");
-                Console.WriteLine("                             Jarvisnator version 1.0.0                               ");
+                Console.WriteLine("                             Jarvis version 1.0.0                               ");
                 Console.WriteLine("=====================================================================================");
 
                 Console.WriteLine("\n");

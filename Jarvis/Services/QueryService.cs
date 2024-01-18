@@ -26,7 +26,7 @@ public class QueryService
         {
             Messages = new List<ChatMessage>
             {
-                ChatMessage.FromSystem("You are a helpful assistant."),
+                ChatMessage.FromSystem("You are a helpful assistant. All replies will be concise and under 200 characters."),
                 ChatMessage.FromUser(query)
             },
             Model = Models.Gpt_3_5_Turbo,
